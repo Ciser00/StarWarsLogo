@@ -1,0 +1,72 @@
+@font-face {
+    src: url(Starjedi.ttf);
+    font-family:starwars;
+}
+
+h1{
+  background-color:  #e6ac00;
+  text-decoration: overline underline;
+}
+h2{
+  font-size: 200px;
+  position: absolute;
+  top:350px;
+  left: 275px;
+  color: white;
+  font-family: serif;
+}
+h3{
+  position: absolute;
+  font-size: 90px;
+  top: 610px;
+  color:yellow;
+  font-family: serif;
+  left:100px;
+}
+h4{
+  position: absolute;
+  font-size: 300;
+
+}
+#Author{
+  font-size: 300;
+}
+div,p {
+
+  text-align: center;
+  font-family: fantasy;
+
+}
+#LEGANDS_BANNER{
+  background-color: yellow;
+}
+
+#bottxt{
+  display: flex;
+  font-family:  starwars;
+  padding-left: 510px;
+  position: absolute;
+  top:0px;
+  z-index: -1;
+  font-size: 100px;
+}
+
+#benpic{
+  padding-top: 50px;
+
+  height: 700px;
+}
+body{
+  background-image: url(tatback2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+#credits p{
+  font-size: 50px;
+}
+#bencontainer{
+  position: relative;
+  width: 100%;
+}
